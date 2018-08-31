@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingTop="40dp"
+    tools:context="com.android.pageturnview.MainActivity">
+
+    <Button
+        android:id="@+id/page_turn_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="图片翻页"
+        android:textColor="#000"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/fold_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="折线效果"
+        android:textColor="#000"
+        android:textSize="14sp" />
+
+</LinearLayout>
